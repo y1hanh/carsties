@@ -36,19 +36,6 @@ Carstie is designed with a modern, event-driven microservices architecture to en
 - Frontend (Next.js WebApp)
 
 
-
----
-
-## 🚀 Next Steps
-
-- Complete Bidding Service and integrate with Auction updates.
-- Build Identity Service for secure user authentication.
-- Develop Notification Service with SignalR for real-time alerts.
-- Set up API Gateway for unified request routing.
-- Develop the Next.js frontend client.
-- Expand Postman test coverage across all endpoints.
-- Create Docker Compose file for easier local environment setup.
-
 ---
 
 ## 🚧 Project Status
