@@ -15,7 +15,7 @@ public class Dbinitializer
     await DB.InitAsync("SearchDb", MongoClientSettings
       .FromConnectionString(app.Configuration.GetConnectionString("MongoDbConnection")));
 
-    await DB.Index<SearchService.Models.Item>()
+    await DB.Index<Item>()
       .Key(x => x.Make, KeyType.Text)
       .Key(x => x.Model, KeyType.Text)
       .Key(x => x.Color, KeyType.Text)
