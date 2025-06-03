@@ -54,8 +54,8 @@ public class SearchController : ControllerBase
     return Ok(new
     {
       result = result.Results,
-      pageCount = searchParams.PageNumber,
-      pageSize = searchParams.PageSize
+      pageCount = result.PageCount,
+      totalCount = result.TotalCount
     });
   }
 }
