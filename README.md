@@ -1,5 +1,6 @@
 ## Carstie - Auction Platform
-Carstie is designed with a modern, event-driven microservices architecture to ensure scalability, resilience, and real-time auction updates.
+Carstie is a full-stack web application that lets users explore car listings, place real-time bids, and receive instant updates during live auctions. 
+Built with a microservices architecture and event-driven communication, Carstie ensures a scalable and responsive experience on website.
 
 ## 🏗️ System Progress Overview
 
@@ -11,10 +12,10 @@ Carstie is designed with a modern, event-driven microservices architecture to en
 | **Identity Service (Identity-svc)** | 🔄 Doing | User authentication and authorization (Postgres) planned. |
 | **Bidding Service (Bidding-svc)** | 🔜 To Do | Real-time bidding logic under development. |
 | **Notification Service (Notification-svc)** | 🔜 To Do | Real-time user notifications via SignalR to be implemented. |
-| **Gateway Service** | 🔜 To Do | API Gateway routing to microservices pending. |
-| **Web Application (Next.js)** | 🔜 To Do | Frontend interface for browsing and bidding to be developed. |
+| **Gateway Service** | ✅ Done | API Gateway routing to microservices pending. |
+| **Web Application (Next.js)** | 🔄 Doing | Frontend interface for browsing and bidding to be developed. |
 | **Postman Tests (Full Coverage)** | ✅ Done | Expansion of API test cases for new services planned. |
-| **Docker Compose Setup** | 🔄 Doing | Infrastructure orchestration for local development planned. |
+| **Docker Compose Setup** | ✅ Done  | Infrastructure orchestration for local development planned. |
 
 ---
 
@@ -23,23 +24,16 @@ Carstie is designed with a modern, event-driven microservices architecture to en
 - Search Service
 - Event Bus (RabbitMQ)
 - Postman Test Coverage
-
-### 🔄 Doing
 - Identity Service (Login/Signup, OAuth2)
 - Docker Compose orchestration
+- Gateway setup
+
+### 🔄 Doing
+- Frontend (Next.js WebApp)
 
 ### 🔜 To Do
 - Bidding Service (Real-time bid handling)
-- Identity Service (Login/Signup)
-- Notification Service (SignalR integration)
-- Gateway setup
-- Frontend (Next.js WebApp)
+- Notification Service
 
 
----
-
-## 🚧 Project Status
-
-> **Carstie** is an active project under development!  
-> Follow the repository for updates as new features roll out.
 
